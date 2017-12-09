@@ -49,7 +49,7 @@ namespace DictionaryDemo
         public void LoadDataFile()
         {
             FileStream file = new FileStream(
-                @"F:\DictionaryDemoFix\DictionaryDemo\input.txt",
+                @"C:\Users\HP\Documents\GitHub\Do-An\DictionaryDemoFix\DictionaryDemo\input.txt",
                 FileMode.OpenOrCreate, FileAccess.ReadWrite);
             StreamReader sr = new StreamReader(file);
             string s = sr.ReadLine();
@@ -127,8 +127,9 @@ namespace DictionaryDemo
 
         public static void AddComboBox(BangBam BB, ComboBox comboBox1)
         {
+            int dong = BangBam.DemDong();
             Node p = new Node();
-            for (int i = 0; i < 26; i++)
+            for (int i = 0; i < dong; i++)
             {
                 p = BB.Table[i].Head;
                 while (p != null)
