@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -45,8 +46,29 @@ namespace DictionaryDemo
                         MessageBoxIcon.Information);
                     _frmMainScreen.comboBox1.Items.Remove(s1);
 
+                    for (int i = 0; i < _frmMainScreen.DS.Count; i++)
+                    {
+                        if (_frmMainScreen.DS[i].Name == s1)
+                            _frmMainScreen.DS.RemoveAt(i);
+                    }
+
                     //_frmMainScreen.comboBox1.Items.Clear();
                     //MainScreen.AddComboBox(_frmMainScreen.BB, _frmMainScreen.comboBox1);
+
+                    FileStream file = new FileStream(
+                        @"C:\Users\Trung Kien\Documents\GitHub\Do-An\DictionaryDemoFix\DictionaryDemo\input.txt",
+                        FileMode.Create, FileAccess.Write);
+                    StreamWriter write = new StreamWriter(file);
+
+                    for (int i = 0; i < _frmMainScreen.DS.Count; i++)
+                    {
+                        string k = _frmMainScreen.DS[i].Name + '@' + _frmMainScreen.DS[i].Meaning + '@' +
+                                   _frmMainScreen.DS[i].Explication;
+                        write.WriteLine(k);
+                    }
+                    write.Flush();
+                    write.Close();
+                    file.Close();
                 }
             }
             catch (Exception exception)

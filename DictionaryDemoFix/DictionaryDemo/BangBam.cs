@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,7 +15,7 @@ namespace DictionaryDemo
         public static int DemDong()
         {
              FileStream file = new FileStream(
-                @"C:\Users\HP\Documents\GitHub\Do-An\DictionaryDemoFix\DictionaryDemo\input.txt",
+                @"C:\Users\Trung Kien\Documents\GitHub\Do-An\DictionaryDemoFix\DictionaryDemo\input.txt",
                 FileMode.OpenOrCreate, FileAccess.ReadWrite);
             StreamReader sr = new StreamReader(file);
             string s = sr.ReadLine();
@@ -45,9 +46,12 @@ namespace DictionaryDemo
             int x = 1;
             int n = s.Length;
            for(int i = 0;i < n; i++ )
-            {
-                x = x * (s[i] - 96) % dong;
-            }
+           {
+               if (s[i] < 'a' || s[i] > 'z')
+                   i++;
+               else
+                   x = x * (s[i] - 96) % dong;
+           }
             return x;
         }
         //public void Duyet()

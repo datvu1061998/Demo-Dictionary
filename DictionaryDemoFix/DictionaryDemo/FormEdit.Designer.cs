@@ -36,7 +36,7 @@
             this.txt_EditName = new System.Windows.Forms.TextBox();
             this.btn_Edit = new System.Windows.Forms.Button();
             this.lb_AddExplication = new System.Windows.Forms.Label();
-            this.txt_AddExplication = new System.Windows.Forms.TextBox();
+            this.txt_EditExplication = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lb_Edit
@@ -121,21 +121,21 @@
             this.lb_AddExplication.TabIndex = 19;
             this.lb_AddExplication.Text = "Explication:";
             // 
-            // txt_AddExplication
+            // txt_EditExplication
             // 
-            this.txt_AddExplication.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_AddExplication.Location = new System.Drawing.Point(147, 178);
-            this.txt_AddExplication.Multiline = true;
-            this.txt_AddExplication.Name = "txt_AddExplication";
-            this.txt_AddExplication.Size = new System.Drawing.Size(364, 103);
-            this.txt_AddExplication.TabIndex = 20;
+            this.txt_EditExplication.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_EditExplication.Location = new System.Drawing.Point(147, 178);
+            this.txt_EditExplication.Multiline = true;
+            this.txt_EditExplication.Name = "txt_EditExplication";
+            this.txt_EditExplication.Size = new System.Drawing.Size(364, 103);
+            this.txt_EditExplication.TabIndex = 20;
             // 
             // FormEdit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(544, 347);
-            this.Controls.Add(this.txt_AddExplication);
+            this.Controls.Add(this.txt_EditExplication);
             this.Controls.Add(this.lb_AddExplication);
             this.Controls.Add(this.btn_Edit);
             this.Controls.Add(this.lb_Edit);
@@ -162,6 +162,6 @@
         private System.Windows.Forms.TextBox txt_EditName;
         private System.Windows.Forms.Button btn_Edit;
         private System.Windows.Forms.Label lb_AddExplication;
-        private System.Windows.Forms.TextBox txt_AddExplication;
+        private System.Windows.Forms.TextBox txt_EditExplication;
     }
 }

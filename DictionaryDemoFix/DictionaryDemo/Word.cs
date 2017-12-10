@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DictionaryDemo
 {
-    public class Word
+    public class Word:IComparable<Word>
     {
         private string name;
         private string meaning;
@@ -34,6 +34,11 @@ namespace DictionaryDemo
         {
             set { explication = value; }
             get { return explication; }
+        }
+
+        public int CompareTo(Word other)
+        {
+            return this.Name.CompareTo(other.Name);
         }
     }
 }

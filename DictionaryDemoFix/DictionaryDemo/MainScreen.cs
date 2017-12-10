@@ -22,7 +22,7 @@ namespace DictionaryDemo
             // AddList(L);
             BB = new BangBam();
             LoadDataFile();
-            AddComboBox(BB, comboBox1);
+            AddComboBox();
             Loading();
             SpeakWord();
 
@@ -49,7 +49,7 @@ namespace DictionaryDemo
         public void LoadDataFile()
         {
             FileStream file = new FileStream(
-                @"C:\Users\HP\Documents\GitHub\Do-An\DictionaryDemoFix\DictionaryDemo\input.txt",
+                @"C:\Users\Trung Kien\Documents\GitHub\Do-An\DictionaryDemoFix\DictionaryDemo\input.txt",
                 FileMode.OpenOrCreate, FileAccess.ReadWrite);
             StreamReader sr = new StreamReader(file);
             string s = sr.ReadLine();
@@ -77,6 +77,7 @@ namespace DictionaryDemo
                 }
                 Word wd = new Word(name, meaning, explication);
                 BB.Add(wd);
+                DS.Add(wd);
                 s = sr.ReadLine();
             }
             while (s != null);
@@ -125,19 +126,40 @@ namespace DictionaryDemo
             this.Enabled = !(isLoading1 && isLoading2);
         }
 
-        public static void AddComboBox(BangBam BB, ComboBox comboBox1)
+        public void AddComboBox()
         {
-            int dong = BangBam.DemDong();
-            Node p = new Node();
-            for (int i = 0; i < dong; i++)
+            //int dong = BangBam.DemDong();
+            //Node p = new Node();
+            //for (int i = 0; i < dong; i++)
+            //{
+            //    p = BB.Table[i].Head;
+            //    while (p != null)
+            //    {
+            //        comboBox1.Items.Add(p.word.Name);
+            //        p = p.pNext;
+            //    }
+            //}
+            FileStream file = new FileStream(
+                @"C:\Users\Trung Kien\Documents\GitHub\Do-An\DictionaryDemoFix\DictionaryDemo\input.txt",
+                FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            StreamReader sr = new StreamReader(file);
+            string s = sr.ReadLine();
+
+            do
             {
-                p = BB.Table[i].Head;
-                while (p != null)
+                string name = null;
+                int j = 0;
+                while (j < s.Length && s[j] != '@')
                 {
-                    comboBox1.Items.Add(p.word.Name);
-                    p = p.pNext;
+                    name += s[j];
+                    j++;
                 }
+                comboBox1.Items.Add(name);
+                s = sr.ReadLine();
             }
+            while (s != null);
+            sr.Close();
+            file.Close();
         }
 
         private SpeakText VietNamese;
@@ -145,6 +167,7 @@ namespace DictionaryDemo
         public bool isLoading1 = true;
         public bool isLoading2 = true;
         public BangBam BB;
+        public List<Word> DS = new List<Word>();
         public List<Word> LS = new List<Word>();
         public DSLK LichSu = new DSLK();
 

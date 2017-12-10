@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -40,11 +41,28 @@ namespace DictionaryDemo
                     Word wd = new Word(s1, s2, s3);
                     _frmMainScreen.BB.Add(wd);
                     _frmMainScreen.comboBox1.Items.Clear();
-                    MainScreen.AddComboBox(_frmMainScreen.BB, _frmMainScreen.comboBox1);
+                    //MainScreen.AddComboBox(_frmMainScreen.BB, _frmMainScreen.comboBox1);
+                    _frmMainScreen.DS.Add(wd);
+                    _frmMainScreen.DS.Sort();
 
-                    //_frmMainScreen.comboBox1.Items.Add(s1);
                     MessageBox.Show("This word has been added", "Congratulation", MessageBoxButtons.OK,
                         MessageBoxIcon.Information);
+
+                    FileStream fi = new FileStream(
+                        @"C:\Users\Trung Kien\Documents\GitHub\Do-An\DictionaryDemoFix\DictionaryDemo\input.txt",
+                        FileMode.Create, FileAccess.Write);
+                    StreamWriter write = new StreamWriter(fi);
+                    for (int i = 0; i < _frmMainScreen.DS.Count; i++)
+                    {
+                        string k = _frmMainScreen.DS[i].Name + '@' + _frmMainScreen.DS[i].Meaning + '@' +
+                                   _frmMainScreen.DS[i].Explication;
+                        write.WriteLine(k);
+                    }
+                    write.Flush();
+                    write.Close();
+                    fi.Close();
+                    _frmMainScreen.AddComboBox();
+
                     _frmMainScreen.Loading();
                 }
             }

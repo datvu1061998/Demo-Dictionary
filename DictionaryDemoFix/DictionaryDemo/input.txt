@@ -1,44 +1,83 @@
-﻿apple@trái táo@loại trái cây màu đỏ 
-appear@ xuất hiện, hiện ra, trình diện@hiện ra và nhìn thấy được
-answer@sự trả lời; trả lời@nói cho người nào đó biết điều người ấy hỏi hoặc yêu cầu
+add@phép cộng@phép tính toán để thêm một đối tượng
+animal@động vật@các con thú trong tự nhiên
+anxious@lo lắng@một trạng thái của con người
+apple@trái táo@loại trái cây màu đỏ 
 bag@ba lô@dùng để đựng đồ vật
-beauty@vẻ đẹp, cái đẹp; người đẹp@có hình thức hoặc phẩm chất đem lại sự hứng thú đặc biệt, làm cho người ta thích nhìn ngắm hoặc kính nể
-begin@bắt đầu@bước vào giai đoạn đầu của một công việc, một quá trình, một trạng thái
+ban@cấm@ngăn cản, không cho thực hiện một điều gì
+bed@cái giường@đồ bằng gỗ hoặc tre, để nằm hoặc ngồi
+bee@con ong@một loài côn trùng có cánh, chuyên hút mật hoa, có một cái kim ở dưới thân, khi chích sẽ rất đau
+beer@bia@một loại thức uống có men thường được uống trong những bữa tiệc của nam giới
+big@to lớn@miêu tả tính chất lớn về kích cỡ của một đối tượng
+bike@xe máy@loại xe có hai bánh theo chiều trước-sau và chuyển động nhờ động cơ gắn trên nó
+bill@hóa đơn@một loại giấy để phục vụ cho vài vấn đề trao đổi có sử dụng tiền để thanh toán
+book@cuốn sách@một loạt các tờ giấy có chữ hoặc hình ảnh được viết tay hoặc in ấn, được buộc hoặc dán với nhau về một phía, chứa đựng các giá trị văn hóa tinh thần
 cat@con mèo@thú nhỏ thuộc nhóm ăn thịt, leo trèo rất giỏi, nuôi trong nhà để bắt chuột hoặc để làm cảnh
-check@kiểm tra; sự kiểm tra;@em xét tình hình thực tế để đánh giá, nhận xét
-chief@trọng yếu, chính yếu; thủ lĩnh, lãnh tụ, người đứng đầu, xếp;@người được tôn làm người lãnh đạo một phong trào đấu tranh, một chính đảng, một nước
+chair@cái ghế@vật dụng để ngồi là chính và một số việc khác
+clock@đồng hồ@đồ vật dùng để ghi nhận thời gian
+club@câu lạc bộ@nơi tổ chức cho nhiều người tham gia sinh hoạt, giải trí
+computer@máy vi tính@một loại máy quen thuộc với người hiện đại, dùng để xử lí, thực hiện công việc
+count@đếm@hành động thống kê một đối tượng có tính thứ tự
 day@ngày@khoảng thời gian Trái Đất tự xoay xung quanh nó đúng một vòng, bằng 24 giờ
+desktop@màn hình@thiết bị dùng để nhìn, chiếu hình ảnh lên trên nó
+destroy@phá hủy@hủy hoại một đối tượng, công trình
+dictionary@từ điển@danh sách các từ, ngữ được sắp xếp thành các từ vị chuẩn, cung cấp các giải nghĩa các từ ngữ đó hoặc các từ ngữ tương đương trong một hay nhiều thứ tiếng khác
 divide@chia, chia ra, phân ra@tách ra làm thành từng phần, từ một chỉnh thể
-doctor@bác sĩ@người thầy thuốc tốt nghiệp đại học y khoa
-dream@giấc mơ, mơ@say mê theo những hình ảnh tốt đẹp nhưng xa vời, không thực tế
+earth@Trái đất@hành tinh trong hệ mặt trời nơi loài người và các loài sinh vật đang sinh sống
 egg@trứng@khối hình bầu dục hoặc hình cầu do một số động vật cái đẻ ra, sau có thể nở thành con
-evening@buổi chiều, tối@khoảng thời gian từ sau trưa đến trước tối
-example@ thí dụ, ví dụ@trường hợp cụ thể nêu ra để minh hoạ hoặc để chứng minh
+eyes@đôi mắt@bộ phận trên khuôn mặt giúp quan sát, định hướng trong môi trường xung quanh và phản ứng lại các tác động từ môi trường
+fan@cái quạt@đồ dùng để tạo thành gió
+fill@điền vào@một thao tác để đưa thông tin vào một đối tượng
 fish@con cá@động vật có xương sống ở nước, thở bằng mang, bơi bằng vây
+football@bóng đá@một môn thể thao thi đấu trên sân cỏ với 2 đội gồm 10 cầu thủ và 1 thủ môn
 forest@rừng@vùng đất rộng có nhiều cây cối mọc lâu năm
-friend@người bạn@người quen biết và có quan hệ gần gũi, thân thiện với nhau
 get@lấy@đưa cái của mình hoặc cái đã sẵn có ở đâu đó để làm việc gì
-glass@ kính@thuỷ tinh hình tấm, được sử dụng vào nhiều việc khác nhau
-grand@rộng lớn, vĩ đại@có diện tích hoặc phạm vi rất lớn (nói khái quát)
+ghost@con ma@một loại thực thể không xác định
+gun@súng@một loại vũ khí sử dụng đạn để gây sát thương bằng cách bắn đạn về phía mục tiêu
+hello@xin chào@lời chào hỏi lịch sự khi gặp người khác
 hide@ẩn@giấu mình ở nơi kín đáo hoặc nơi có vật che chở
-here@đây, ở đây@từ dùng để chỉ sự vật, địa điểm ở ngay vị trí người nói đang nói hoặc ở ngay thời điểm nói
-history@ lịch sử, sử học@quá trình phát sinh, phát triển đã qua hay cho đến tiêu vong của một hiện tượng, một sự vật nào đó diễn ra theo thứ tự thời gian
 kill@giết@làm cho bị chết, một cách có chủ ý
-know@biết@có ý niệm về người, vật hoặc điều gì đó, để có thể nhận ra được hoặc có thể khẳng định được sự tồn tại của người, vật hoặc điều ấy
-king@vua@người đứng đầu nhà nước, thường lên cầm quyền bằng con đường kế vị
+kiss@hôn@ hành động mà một người dùng đôi môi của mình để chạm vào một vật khác hoặc môi của người khác, thường là cử chỉ thể hiện tình cảm
+language@ngôn ngữ@công cụ dùng làm phương tiện giao tiếp với nhau
+lies@dối trá@một điều sai, trái với sự thật
 lock@khóa@ngăn chặn không cho xâm phạm
-law@luật@những điều quy định riêng buộc mọi người phải tuân theo trong một loạt hoạt động nào đó
-level@trình độ, cấp, vị trí; bằng, ngang bằng@mức độ về sự hiểu biết, về kĩ năng được xác định hoặc đánh giá theo tiêu chuẩn nhất định nào đó
-mom@mẹ@người phụ nữ có con, trong quan hệ với con (cũng dùng để xưng gọi)
+love@tình yêu / yêu@một tình cảm thiêng liêng giữa người với người hoặc giữa người với các sự vật khác
+market@chợ, khu chợ@nơi tụ họp mua bán vào những ngày, buổi nhất định
+milk@sữa@một chất lỏng màu trắng đục được tạo ra bởi con cái của động vật có vú
 miss@quên@không còn nhớ, không còn lưu giữ trong trí nhớ
+mom@mẹ@người phụ nữ có con, trong quan hệ với con (cũng dùng để xưng gọi)
+name@tên@thuật ngữ được dùng để nhận dạng. Nó dùng để xác định một con người, một sự vật hoặc một bối cảnh nhất định
 nice@tốt@có phẩm chất, chất lượng cao hơn mức bình thường
 option@tùy chọn@xem xét, so sánh để lấy ra cái hợp yêu cầu trong nhiều cái cùng loại
+out@bên ngoài@mô tả vị trí bên ngoài một đối tượng làm mốc đã xác định
 parent@phụ huynh@cha mẹ hoặc người thay mặt, đại diện cho gia đình học sinh trong quan hệ với nhà trường
+power@năng lượng@là khả năng làm thay đổi trạng thái hoặc thực hiện công năng lên một hệ vật chất
 queen@nữ hoàng@người phụ nữ làm vua
+rain@mưa@hiện tượng hơi nước rơi xuống khi tích tụ quá lâu trong mây
+red@màu đỏ@màu của bức xạ điện từ có tần số thấp nhất (bước sóng dài nhất) có thể thấy rõ bởi mắt người, ánh sáng đơn sắc đỏ có bước sóng nằm trong khoảng 630-760 nm
+rice@gạo@Gạo là một sản phẩm lương thực thu từ cây lúa. Hạt gạo thường có màu trắng, nâu hoặc đỏ thẫm, chứa nhiều dinh dưỡng
+ride@lái@hành động điều khiển một loại vật nào đó bằng khả năng của bản thân
+river@sông@dòng nước tự nhiên có lưu lượng lớn, chảy thường xuyên và đổ ra biển
 run@chạy@(người, động vật) di chuyển thân thể bằng những bước nhanh, mạnh và liên tiếp
-sad@buồn@hay đg có tâm trạng không thích thú của người đang gặp việc đau thương hoặc đang có điều không được như ý
+sad@buồn@hay đang có tâm trạng không thích thú của người đang gặp việc đau thương hoặc đang có điều không được như ý
+salad@món rau trộn@một loại món ăn gồm nhiều rau trộn lại với nhau bằng nhiều loại gia vị để ăn sống
+sea@biển, đại dương@vùng nước mặn chiếm phần lớn bề mặt Trái Đất
+sky@bầu trời@khoảng không gian trên đầu mà ta nhìn thấy
+spring@mùa xuân@mùa đầu năm âm lịch, cây cối nở hoa, nảy lộc
+stadium@sân vận động@sân rộng, được xây để tập luyện và thi đấu thể thao
+star@ngôi sao@một loại thiên thể nhìn thấy dưới dạng điểm sáng lấp lánh trong đêm
+super market@siêu thị@cửa hàng tự phục vụ lớn, bán đủ loại hàng tiêu dùng
+sword@thanh kiếm@một loại vũ khí lạnh cấu tạo từ một thanh kim loại dài được mài bén dùng để đâm, chém trong tác chiến, dài hơn dao, hẹp, nhẹ và mỏng hơn đao
+table tennis@môn bóng bàn@môn thể thao dùng vợt đánh quả bóng qua lại trên lưới căng ngang giữa mặt bàn
 tea@trà@búp hoặc lá cây chè đã sao, đã chế biến, để pha nước uống
+telephone@điện thoại@thiết bị viễn thông dùng để trao đổi thông tin, thông dụng nhất là truyền giọng nói - tức là "thoại" (nói), từ xa giữa hai hay nhiều người
 umbrella@cây dù@dùng để che nắng che mưa
+under@bên dưới@mô tả vị trí bên dưới của một đối tượng
+visible@vô hình, vô định@không thể nhìn thấy được
+volcano@núi lửa@núi có miệng ở đỉnh, từng thời kì phun ra chất nóng chảy từ sâu trong lòng đất
+water@nước@chất lỏng không màu, không mùi, không vị, tồn tại trong tự nhiên
+what@cái gì@một từ để hỏi trong tiếng Anh
+windy@gió@luồng không khí chuyển động
 word@công việc@việc phải bỏ công sức ra để làm
+x-ray@tia x quang@loại tia dùng để soi vào bên trong cơ thể để quan sát
 year@năm@khoảng thời gian Trái Đất di chuyển hết một vòng quanh Mặt Trời, bằng 365 ngày 5 giờ 48 phút 40 giây
 zoo@sở thú@vườn công cộng có trồng nhiều loài cây cỏ và nuôi nhiều loài chim muông để làm nơi tham quan và nghiên cứu.
