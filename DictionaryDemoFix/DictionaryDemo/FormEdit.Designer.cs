@@ -42,6 +42,7 @@
             // lb_Edit
             // 
             this.lb_Edit.AutoSize = true;
+            this.lb_Edit.BackColor = System.Drawing.Color.Transparent;
             this.lb_Edit.Font = new System.Drawing.Font("Ravie", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_Edit.Location = new System.Drawing.Point(148, 9);
             this.lb_Edit.Name = "lb_Edit";
@@ -62,6 +63,7 @@
             // lb_EditMeaning
             // 
             this.lb_EditMeaning.AutoSize = true;
+            this.lb_EditMeaning.BackColor = System.Drawing.Color.Transparent;
             this.lb_EditMeaning.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_EditMeaning.Location = new System.Drawing.Point(18, 125);
             this.lb_EditMeaning.Name = "lb_EditMeaning";
@@ -83,6 +85,7 @@
             // lb_EditName
             // 
             this.lb_EditName.AutoSize = true;
+            this.lb_EditName.BackColor = System.Drawing.Color.Transparent;
             this.lb_EditName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_EditName.Location = new System.Drawing.Point(18, 79);
             this.lb_EditName.Name = "lb_EditName";
@@ -114,6 +117,7 @@
             // lb_AddExplication
             // 
             this.lb_AddExplication.AutoSize = true;
+            this.lb_AddExplication.BackColor = System.Drawing.Color.Transparent;
             this.lb_AddExplication.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_AddExplication.Location = new System.Drawing.Point(12, 211);
             this.lb_AddExplication.Name = "lb_AddExplication";
@@ -134,6 +138,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::DictionaryDemo.Properties.Resources.Form_Edit;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(544, 347);
             this.Controls.Add(this.txt_EditExplication);
             this.Controls.Add(this.lb_AddExplication);
@@ -144,6 +150,9 @@
             this.Controls.Add(this.btn_Check);
             this.Controls.Add(this.lb_EditName);
             this.Controls.Add(this.txt_EditName);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormEdit";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Edit";

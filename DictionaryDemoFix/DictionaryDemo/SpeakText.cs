@@ -24,19 +24,32 @@ namespace DictionaryDemo
 
         private void SetText(string data)
         {
-            HtmlElement element = WbWeb.Document.GetElementById("text");
-            element.SetAttribute("value", data);
+            try
+            {
+                HtmlElement element = WbWeb.Document.GetElementById("text"); //Set thuộc tính của textbox trang web
+                element.SetAttribute("value", data);//Lấy giá trị của textbox trang web
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Can not Access to Internet", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void Speak()
         {
-            HtmlElement element = WbWeb.Document.GetElementById("playbutton");
-            element.InvokeMember("click");
+            try
+            {
+                HtmlElement element = WbWeb.Document.GetElementById("playbutton");//Set thuộc tính của button trang web
+                element.InvokeMember("click");//Khởi tạo sự kiện click của button
+            }
+            catch (Exception e)
+            {
+                
+            }
         }
 
-        public void Spreak(string data)
+        public void Speaking(string data)
         {
-            //SetText("");
             SetText(data);
             Speak();
         }

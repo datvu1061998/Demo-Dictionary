@@ -39,6 +39,7 @@
             // 
             // ptB_Web
             // 
+            this.ptB_Web.BackColor = System.Drawing.Color.Transparent;
             this.ptB_Web.Image = global::DictionaryDemo.Properties.Resources.www_1632431_960_720;
             this.ptB_Web.Location = new System.Drawing.Point(180, 120);
             this.ptB_Web.Name = "ptB_Web";
@@ -50,6 +51,7 @@
             // 
             // ptB_Information
             // 
+            this.ptB_Information.BackColor = System.Drawing.Color.Transparent;
             this.ptB_Information.Image = global::DictionaryDemo.Properties.Resources.info_3_512;
             this.ptB_Information.Location = new System.Drawing.Point(325, 120);
             this.ptB_Information.Name = "ptB_Information";
@@ -61,6 +63,7 @@
             // 
             // ptB_History
             // 
+            this.ptB_History.BackColor = System.Drawing.Color.Transparent;
             this.ptB_History.Image = global::DictionaryDemo.Properties.Resources.Ic_restore_48px1;
             this.ptB_History.Location = new System.Drawing.Point(32, 120);
             this.ptB_History.Name = "ptB_History";
@@ -73,8 +76,9 @@
             // lb_t
             // 
             this.lb_t.AutoSize = true;
+            this.lb_t.BackColor = System.Drawing.Color.White;
             this.lb_t.Font = new System.Drawing.Font("Ravie", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_t.Location = new System.Drawing.Point(5, 25);
+            this.lb_t.Location = new System.Drawing.Point(4, 16);
             this.lb_t.Name = "lb_t";
             this.lb_t.Size = new System.Drawing.Size(457, 39);
             this.lb_t.TabIndex = 3;
@@ -84,6 +88,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::DictionaryDemo.Properties.Resources._20_hinh_nen_chu_de_hoc_tap_cho_powerpoint_1484057630_10;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(466, 261);
             this.Controls.Add(this.lb_t);
             this.Controls.Add(this.ptB_Web);

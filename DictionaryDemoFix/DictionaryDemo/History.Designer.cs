@@ -42,6 +42,7 @@
             // lb_HistoryForm
             // 
             this.lb_HistoryForm.AutoSize = true;
+            this.lb_HistoryForm.BackColor = System.Drawing.Color.Transparent;
             this.lb_HistoryForm.Font = new System.Drawing.Font("Ravie", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_HistoryForm.Location = new System.Drawing.Point(297, 9);
             this.lb_HistoryForm.Name = "lb_HistoryForm";
@@ -52,6 +53,7 @@
             // lb_Lookedup
             // 
             this.lb_Lookedup.AutoSize = true;
+            this.lb_Lookedup.BackColor = System.Drawing.Color.Transparent;
             this.lb_Lookedup.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_Lookedup.Location = new System.Drawing.Point(30, 90);
             this.lb_Lookedup.Name = "lb_Lookedup";
@@ -72,6 +74,7 @@
             // lb_Name
             // 
             this.lb_Name.AutoSize = true;
+            this.lb_Name.BackColor = System.Drawing.Color.Transparent;
             this.lb_Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_Name.Location = new System.Drawing.Point(311, 101);
             this.lb_Name.Name = "lb_Name";
@@ -82,6 +85,7 @@
             // lb_Meaning
             // 
             this.lb_Meaning.AutoSize = true;
+            this.lb_Meaning.BackColor = System.Drawing.Color.Transparent;
             this.lb_Meaning.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_Meaning.Location = new System.Drawing.Point(311, 213);
             this.lb_Meaning.Name = "lb_Meaning";
@@ -92,8 +96,9 @@
             // lb_Explication
             // 
             this.lb_Explication.AutoSize = true;
+            this.lb_Explication.BackColor = System.Drawing.Color.Transparent;
             this.lb_Explication.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Explication.Location = new System.Drawing.Point(311, 368);
+            this.lb_Explication.Location = new System.Drawing.Point(311, 359);
             this.lb_Explication.Name = "lb_Explication";
             this.lb_Explication.Size = new System.Drawing.Size(135, 25);
             this.lb_Explication.TabIndex = 4;
@@ -130,6 +135,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::DictionaryDemo.Properties.Resources.history;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(850, 487);
             this.Controls.Add(this.txt_Explication);
             this.Controls.Add(this.txt_Meaning);

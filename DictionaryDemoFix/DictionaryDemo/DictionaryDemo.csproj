@@ -187,5 +187,35 @@
   <ItemGroup>
     <None Include="Resources\www-1632431_960_720.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2122293421_hinh-nen-hoa-va-co.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hinh-nen-powerpoint-dep-de-thuong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16_40866.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Form Delete.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Form Edit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20-hinh-nen-chu-de-hoc-tap-cho-powerpoint-1484057630-10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tai-ve-25-hinh-nen-dep-gian-di-cho-powerpoint-1484193195-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tai-ve-25-hinh-nen-dep-gian-di-cho-powerpoint-1484193195-21.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

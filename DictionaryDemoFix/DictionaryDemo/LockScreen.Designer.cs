@@ -73,6 +73,7 @@
             this.MinimizeBox = false;
             this.Name = "LockScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "LockScreen";
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.LockScreen_KeyPress);
             this.ResumeLayout(false);
             this.PerformLayout();

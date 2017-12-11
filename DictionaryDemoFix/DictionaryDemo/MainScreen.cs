@@ -15,36 +15,29 @@ namespace DictionaryDemo
     public partial class MainScreen : Form
     {
         public History _frmHistory;
+
         public MainScreen()
         {
             InitializeComponent();
-            //List<Word> L = new List<Word>();
-            // AddList(L);
             BB = new BangBam();
             LoadDataFile();
             AddComboBox();
             Loading();
             SpeakWord();
-
-            #region Test
-
-            //List<Word> DS = new List<Word>();
-            //AddList(DS);
-            //Hashtable hashname = new Hashtable();
-            //Hashtable hashmean = new Hashtable();
-            //for (int i = 0; i < DS.Count; i++)
-            //{
-            //    hashname.Add(i, DS[i].name.ToString());
-            //    hashmean.Add(i, DS[i].meaning.ToString());
-            //}
-            //comboBox1.DataSource = DS;
-            //comboBox1.DisplayMember = "name";
-            //comboBox1.DataSource = hashname.Values;
-            //comboBox1.DisplayMember = hashname.Values.ToString();
-
-            #endregion
-
         }
+
+        #region Biến thành viên
+
+        private SpeakText VietNamese;
+        private SpeakText English;
+        public bool isLoading1 = true;
+        public bool isLoading2 = true;
+        public BangBam BB;
+        public List<Word> DS = new List<Word>();
+        public List<Word> LS = new List<Word>();
+        public DSLK LichSu = new DSLK();
+
+        #endregion
 
         public void LoadDataFile()
         {
@@ -87,6 +80,7 @@ namespace DictionaryDemo
 
         public void SpeakWord()
         {
+            //Khởi tạo Webrownser để liên kết đến trang web đọc tiếng Việt
             WebBrowser wbVN = new WebBrowser();
             wbVN.Width = 0;
             wbVN.Height = 0;
@@ -96,6 +90,7 @@ namespace DictionaryDemo
             wbVN.DocumentCompleted += wbVN_DocumentCompleted;
             this.Controls.Add(wbVN);
 
+            //Khởi tạo Webrownser để liên kết đến trang web đọc tiếng Anh
             WebBrowser wbEn = new WebBrowser();
             wbEn.Width = 0;
             wbEn.Height = 0;
@@ -162,21 +157,6 @@ namespace DictionaryDemo
             file.Close();
         }
 
-        private SpeakText VietNamese;
-        private SpeakText English;
-        public bool isLoading1 = true;
-        public bool isLoading2 = true;
-        public BangBam BB;
-        public List<Word> DS = new List<Word>();
-        public List<Word> LS = new List<Word>();
-        public DSLK LichSu = new DSLK();
-
-        //private void MainScreen_FormClosed(object sender, FormClosedEventArgs e)
-        //{
-        //    LockScreen lc = sender as LockScreen;
-        //    Application.Exit();
-        //}
-
         public void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             ComboBox cb = sender as ComboBox;
@@ -210,9 +190,9 @@ namespace DictionaryDemo
         {
             try
             {
-                if (comboBox1.Text == null)
+                if (comboBox1.Text == "")
                     throw new Exception("Dictionary can not speak");
-                English.Spreak(comboBox1.SelectedText);
+                English.Speaking(comboBox1.SelectedText);
             }
             catch (Exception exception)
             {
@@ -224,9 +204,9 @@ namespace DictionaryDemo
         {
             try
             {
-                if (textBox1.Text == null)
+                if (textBox1.Text == "")
                     throw new Exception("Dictionary can not speak");
-                VietNamese.Spreak(textBox1.Text);
+                VietNamese.Speaking(textBox1.Text);
             }
             catch (Exception exception)
             {
@@ -266,6 +246,12 @@ namespace DictionaryDemo
             {
                 e.Cancel = true;
             }
+        }
+
+        private void MainScreen_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            LockScreen lc = sender as LockScreen;
+            Application.Exit();
         }
     }
 }

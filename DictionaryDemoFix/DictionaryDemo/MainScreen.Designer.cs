@@ -52,6 +52,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Location = new System.Drawing.Point(6, 3);
             this.panel1.Name = "panel1";
@@ -75,6 +76,7 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.Controls.Add(this.textBox2);
             this.panel2.Controls.Add(this.ptB_Edit);
             this.panel2.Controls.Add(this.ptB_Exit);
@@ -93,13 +95,13 @@
             this.textBox2.Location = new System.Drawing.Point(3, 57);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(587, 201);
+            this.textBox2.Size = new System.Drawing.Size(587, 223);
             this.textBox2.TabIndex = 8;
             // 
             // ptB_Edit
             // 
             this.ptB_Edit.Image = global::DictionaryDemo.Properties.Resources.addressbook_edit;
-            this.ptB_Edit.Location = new System.Drawing.Point(331, 284);
+            this.ptB_Edit.Location = new System.Drawing.Point(331, 301);
             this.ptB_Edit.Name = "ptB_Edit";
             this.ptB_Edit.Size = new System.Drawing.Size(76, 60);
             this.ptB_Edit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -110,7 +112,7 @@
             // ptB_Exit
             // 
             this.ptB_Exit.Image = global::DictionaryDemo.Properties.Resources.exitressbook_20edit1;
-            this.ptB_Exit.Location = new System.Drawing.Point(464, 284);
+            this.ptB_Exit.Location = new System.Drawing.Point(461, 301);
             this.ptB_Exit.Name = "ptB_Exit";
             this.ptB_Exit.Size = new System.Drawing.Size(76, 60);
             this.ptB_Exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -132,7 +134,7 @@
             // ptB_Delete
             // 
             this.ptB_Delete.Image = global::DictionaryDemo.Properties.Resources.addressbook_delete;
-            this.ptB_Delete.Location = new System.Drawing.Point(205, 284);
+            this.ptB_Delete.Location = new System.Drawing.Point(203, 301);
             this.ptB_Delete.Name = "ptB_Delete";
             this.ptB_Delete.Size = new System.Drawing.Size(76, 60);
             this.ptB_Delete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -143,7 +145,7 @@
             // ptB_Add
             // 
             this.ptB_Add.Image = global::DictionaryDemo.Properties.Resources.addressbook_add;
-            this.ptB_Add.Location = new System.Drawing.Point(72, 284);
+            this.ptB_Add.Location = new System.Drawing.Point(72, 301);
             this.ptB_Add.Name = "ptB_Add";
             this.ptB_Add.Size = new System.Drawing.Size(79, 60);
             this.ptB_Add.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -177,6 +179,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.Color.LemonChiffon;
+            this.BackgroundImage = global::DictionaryDemo.Properties.Resources._2122293421_hinh_nen_hoa_va_co;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(825, 376);
             this.Controls.Add(this.ptB_Speak1);
             this.Controls.Add(this.panel2);
@@ -187,8 +191,9 @@
             this.MinimizeBox = false;
             this.Name = "MainScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "MainScreen";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainScreen_FormClosing);
-         //   this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainScreen_FormClosed);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainScreen_FormClosed);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

@@ -73,6 +73,36 @@ namespace DictionaryDemo.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _16_40866 {
+            get {
+                object obj = ResourceManager.GetObject("16_40866", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _20_hinh_nen_chu_de_hoc_tap_cho_powerpoint_1484057630_10 {
+            get {
+                object obj = ResourceManager.GetObject("20-hinh-nen-chu-de-hoc-tap-cho-powerpoint-1484057630-10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2122293421_hinh_nen_hoa_va_co {
+            get {
+                object obj = ResourceManager.GetObject("2122293421_hinh-nen-hoa-va-co", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _623443_book_256x256 {
             get {
                 object obj = ResourceManager.GetObject("623443_book_256x256", resourceCulture);
@@ -123,6 +153,16 @@ namespace DictionaryDemo.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap delete {
+            get {
+                object obj = ResourceManager.GetObject("delete", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap exitressbook_20edit {
             get {
                 object obj = ResourceManager.GetObject("exitressbook%20edit", resourceCulture);
@@ -136,6 +176,46 @@ namespace DictionaryDemo.Properties {
         internal static System.Drawing.Bitmap exitressbook_20edit1 {
             get {
                 object obj = ResourceManager.GetObject("exitressbook%20edit1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Form_Delete {
+            get {
+                object obj = ResourceManager.GetObject("Form Delete", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Form_Edit {
+            get {
+                object obj = ResourceManager.GetObject("Form Edit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hinh_nen_powerpoint_dep_de_thuong {
+            get {
+                object obj = ResourceManager.GetObject("hinh-nen-powerpoint-dep-de-thuong", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap history {
+            get {
+                object obj = ResourceManager.GetObject("history", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -176,6 +256,26 @@ namespace DictionaryDemo.Properties {
         internal static System.Drawing.Bitmap info_3_512 {
             get {
                 object obj = ResourceManager.GetObject("info_3-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tai_ve_25_hinh_nen_dep_gian_di_cho_powerpoint_1484193195_2 {
+            get {
+                object obj = ResourceManager.GetObject("tai-ve-25-hinh-nen-dep-gian-di-cho-powerpoint-1484193195-2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tai_ve_25_hinh_nen_dep_gian_di_cho_powerpoint_1484193195_21 {
+            get {
+                object obj = ResourceManager.GetObject("tai-ve-25-hinh-nen-dep-gian-di-cho-powerpoint-1484193195-21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

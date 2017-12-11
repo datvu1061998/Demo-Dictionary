@@ -41,6 +41,7 @@
             // lb_Information
             // 
             this.lb_Information.AutoSize = true;
+            this.lb_Information.BackColor = System.Drawing.Color.Transparent;
             this.lb_Information.Font = new System.Drawing.Font("Ravie", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_Information.Location = new System.Drawing.Point(174, 20);
             this.lb_Information.Name = "lb_Information";
@@ -51,8 +52,9 @@
             // lb_PrjName
             // 
             this.lb_PrjName.AutoSize = true;
+            this.lb_PrjName.BackColor = System.Drawing.Color.Transparent;
             this.lb_PrjName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_PrjName.Location = new System.Drawing.Point(12, 112);
+            this.lb_PrjName.Location = new System.Drawing.Point(22, 112);
             this.lb_PrjName.Name = "lb_PrjName";
             this.lb_PrjName.Size = new System.Drawing.Size(168, 25);
             this.lb_PrjName.TabIndex = 1;
@@ -61,8 +63,9 @@
             // lb_Prj
             // 
             this.lb_Prj.AutoSize = true;
+            this.lb_Prj.BackColor = System.Drawing.Color.Transparent;
             this.lb_Prj.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Prj.Location = new System.Drawing.Point(12, 201);
+            this.lb_Prj.Location = new System.Drawing.Point(22, 201);
             this.lb_Prj.Name = "lb_Prj";
             this.lb_Prj.Size = new System.Drawing.Size(178, 25);
             this.lb_Prj.TabIndex = 2;
@@ -71,8 +74,9 @@
             // lb_PrjStudents
             // 
             this.lb_PrjStudents.AutoSize = true;
+            this.lb_PrjStudents.BackColor = System.Drawing.Color.Transparent;
             this.lb_PrjStudents.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_PrjStudents.Location = new System.Drawing.Point(12, 321);
+            this.lb_PrjStudents.Location = new System.Drawing.Point(35, 309);
             this.lb_PrjStudents.Name = "lb_PrjStudents";
             this.lb_PrjStudents.Size = new System.Drawing.Size(103, 25);
             this.lb_PrjStudents.TabIndex = 3;
@@ -81,8 +85,9 @@
             // lb_Name
             // 
             this.lb_Name.AutoSize = true;
+            this.lb_Name.BackColor = System.Drawing.Color.Transparent;
             this.lb_Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Name.Location = new System.Drawing.Point(253, 106);
+            this.lb_Name.Location = new System.Drawing.Point(242, 106);
             this.lb_Name.Name = "lb_Name";
             this.lb_Name.Size = new System.Drawing.Size(393, 31);
             this.lb_Name.TabIndex = 4;
@@ -91,8 +96,9 @@
             // lb_Subject
             // 
             this.lb_Subject.AutoSize = true;
+            this.lb_Subject.BackColor = System.Drawing.Color.Transparent;
             this.lb_Subject.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Subject.Location = new System.Drawing.Point(253, 195);
+            this.lb_Subject.Location = new System.Drawing.Point(242, 195);
             this.lb_Subject.Name = "lb_Subject";
             this.lb_Subject.Size = new System.Drawing.Size(394, 31);
             this.lb_Subject.TabIndex = 5;
@@ -101,8 +107,9 @@
             // lb_Student1
             // 
             this.lb_Student1.AutoSize = true;
+            this.lb_Student1.BackColor = System.Drawing.Color.Transparent;
             this.lb_Student1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Student1.Location = new System.Drawing.Point(253, 279);
+            this.lb_Student1.Location = new System.Drawing.Point(242, 279);
             this.lb_Student1.Name = "lb_Student1";
             this.lb_Student1.Size = new System.Drawing.Size(325, 31);
             this.lb_Student1.TabIndex = 6;
@@ -111,8 +118,9 @@
             // lb_Student2
             // 
             this.lb_Student2.AutoSize = true;
+            this.lb_Student2.BackColor = System.Drawing.Color.Transparent;
             this.lb_Student2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Student2.Location = new System.Drawing.Point(253, 342);
+            this.lb_Student2.Location = new System.Drawing.Point(242, 340);
             this.lb_Student2.Name = "lb_Student2";
             this.lb_Student2.Size = new System.Drawing.Size(166, 31);
             this.lb_Student2.TabIndex = 7;
@@ -122,6 +130,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::DictionaryDemo.Properties.Resources.tai_ve_25_hinh_nen_dep_gian_di_cho_powerpoint_1484193195_21;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(659, 395);
             this.Controls.Add(this.lb_Student2);
             this.Controls.Add(this.lb_Student1);
