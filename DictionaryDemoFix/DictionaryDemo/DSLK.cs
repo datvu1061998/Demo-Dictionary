@@ -38,25 +38,6 @@ namespace DictionaryDemo
             }
         }
 
-        //public void Duyet()
-        //{
-        //    Node p = Head;
-        //    try
-        //    {
-        //        if (p == null)
-        //            throw new Exception("Empty List");
-        //        while (p != null)
-        //        {
-        //            Console.WriteLine("{0} {1}", p.word.Name, p.word.Meaning);
-        //            p = p.pNext;
-        //        }
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        Console.WriteLine(e.Message);
-        //    }
-        //}
-
         public Node Search(string s)
         {
             Node p = Head;

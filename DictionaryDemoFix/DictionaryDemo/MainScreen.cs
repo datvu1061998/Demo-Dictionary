@@ -166,7 +166,6 @@ namespace DictionaryDemo
             {
                 textBox1.Text = k.word.Meaning;
                 textBox2.Text = k.word.Explication;
-                //LS.Add(new Word(s, textBox1.Text, textBox2.Text));
                 Word wd = new Word(s, textBox1.Text, textBox2.Text);
                 Node p = new Node();
                 p.CreateNode(wd);

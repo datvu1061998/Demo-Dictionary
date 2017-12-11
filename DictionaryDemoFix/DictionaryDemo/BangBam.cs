@@ -14,9 +14,9 @@ namespace DictionaryDemo
 
         public static int DemDong()
         {
-             FileStream file = new FileStream(
-                @"C:\Users\Trung Kien\Documents\GitHub\Do-An\DictionaryDemoFix\DictionaryDemo\input.txt",
-                FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            FileStream file = new FileStream(
+               @"C:\Users\Trung Kien\Documents\GitHub\Do-An\DictionaryDemoFix\DictionaryDemo\input.txt",
+               FileMode.OpenOrCreate, FileAccess.ReadWrite);
             StreamReader sr = new StreamReader(file);
             string s = sr.ReadLine();
             int d = 0;
@@ -45,23 +45,15 @@ namespace DictionaryDemo
         {
             int x = 1;
             int n = s.Length;
-           for(int i = 0;i < n; i++ )
-           {
-               if (s[i] < 'a' || s[i] > 'z')
-                   i++;
-               else
-                   x = x * (s[i] - 96) % dong;
-           }
+            for (int i = 0; i < n; i++)
+            {
+                if (s[i] < 'a' || s[i] > 'z')
+                    i++;
+                else
+                    x = x * (s[i] - 96) % dong;
+            }
             return x;
         }
-        //public void Duyet()
-        //{
-        //    for (int i = 0; i < 26; i++)
-        //    {
-        //        if (Table[i].Head != null)
-        //            Table[i].Duyet();
-        //    }
-        //}
 
         public void Add(Word wd)
         {
@@ -131,10 +123,6 @@ namespace DictionaryDemo
                     if (Table[bam].Head == null || p == null || Table[bam].Head == Table[bam].Tail || p.pNext == null)
                         throw new Exception();
                     Table[bam].RemoveAfter(p);
-                    //Node q = p.GetNext();
-                    //p.Next(q.GetNext());
-                    //if (p.GetNext() == null)
-                    //    Table[bam].Tail = p;
                 }
                 catch (Exception e)
                 {
