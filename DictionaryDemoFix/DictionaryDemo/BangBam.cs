@@ -15,7 +15,7 @@ namespace DictionaryDemo
         public static int DemDong()
         {
             FileStream file = new FileStream(
-               @"C:\Users\Trung Kien\Documents\GitHub\Do-An\DictionaryDemoFix\DictionaryDemo\input.txt",
+                Link.filepath,
                FileMode.OpenOrCreate, FileAccess.ReadWrite);
             StreamReader sr = new StreamReader(file);
             string s = sr.ReadLine();

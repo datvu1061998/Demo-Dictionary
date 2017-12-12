@@ -82,7 +82,7 @@ namespace DictionaryDemo
                 }
 
                 FileStream file = new FileStream(
-                    @"C:\Users\Trung Kien\Documents\GitHub\Do-An\DictionaryDemoFix\DictionaryDemo\input.txt",
+                    Link.filepath,
                     FileMode.Create, FileAccess.Write);
                 StreamWriter write = new StreamWriter(file);
 

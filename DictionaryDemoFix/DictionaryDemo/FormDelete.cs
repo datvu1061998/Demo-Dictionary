@@ -56,7 +56,7 @@ namespace DictionaryDemo
                     //MainScreen.AddComboBox(_frmMainScreen.BB, _frmMainScreen.comboBox1);
 
                     FileStream file = new FileStream(
-                        @"C:\Users\Trung Kien\Documents\GitHub\Do-An\DictionaryDemoFix\DictionaryDemo\input.txt",
+                        Link.filepath,
                         FileMode.Create, FileAccess.Write);
                     StreamWriter write = new StreamWriter(file);
 

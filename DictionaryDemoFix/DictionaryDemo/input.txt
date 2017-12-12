@@ -21,6 +21,7 @@ day@ngày@khoảng thời gian Trái Đất tự xoay xung quanh nó đúng mộ
 desktop@màn hình@thiết bị dùng để nhìn, chiếu hình ảnh lên trên nó
 destroy@phá hủy@hủy hoại một đối tượng, công trình
 dictionary@từ điển@danh sách các từ, ngữ được sắp xếp thành các từ vị chuẩn, cung cấp các giải nghĩa các từ ngữ đó hoặc các từ ngữ tương đương trong một hay nhiều thứ tiếng khác
+director@giám đốc@người quản lý công ty
 divide@chia, chia ra, phân ra@tách ra làm thành từng phần, từ một chỉnh thể
 earth@Trái đất@hành tinh trong hệ mặt trời nơi loài người và các loài sinh vật đang sinh sống
 egg@trứng@khối hình bầu dục hoặc hình cầu do một số động vật cái đẻ ra, sau có thể nở thành con

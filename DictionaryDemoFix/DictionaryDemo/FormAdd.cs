@@ -49,7 +49,7 @@ namespace DictionaryDemo
                         MessageBoxIcon.Information);
 
                     FileStream fi = new FileStream(
-                        @"C:\Users\Trung Kien\Documents\GitHub\Do-An\DictionaryDemoFix\DictionaryDemo\input.txt",
+                        Link.filepath,
                         FileMode.Create, FileAccess.Write);
                     StreamWriter write = new StreamWriter(fi);
                     for (int i = 0; i < _frmMainScreen.DS.Count; i++)
