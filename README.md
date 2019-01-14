@@ -1,2 +1,2 @@
-# Do-An
-Từ Điển
+Project_Dictionary
+Window Form C#
